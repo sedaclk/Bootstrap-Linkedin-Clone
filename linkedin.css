@@ -1,0 +1,207 @@
+.navbarbg {
+    height: 70px;
+    background-color: white;
+  }
+  
+  input.searche {
+    height: 36px;
+    max-width: 500px;
+    background-color: #eef3f8;
+    border: 0;
+  }
+  input.searche::placeholder {
+    font-size: 14px;
+    color: gray;
+    background-size: 7%;
+    background-position: 40%;
+    background-image: url(data:image/png;base64,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);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;;
+    text-align:center;
+    padding-left: 19px;
+    
+  }
+  
+  .body {
+    background-color: #f3f2ef;
+  }
+ 
+  
+  .menutext {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 5px;
+    font-weight: 700;
+  }
+  
+  .menutext:hover {
+    color: black;
+  }
+  
+  button.mediatext {
+    color: #5f5f5f;
+  }
+  
+  button.mediatext:hover {
+    color: #5f5f5f;
+  }
+  
+  .mediatext {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f5f5f;
+  }
+  
+  
+  i {
+    color: gray;
+    margin-top: 8px;
+  }
+  i:hover {
+    color: black;
+  }
+  
+  input.content {
+    border-radius: 40px;
+    height: 45px;
+  }
+  input.content::placeholder {
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://raw.githubusercontent.com/Kodluyoruz/taskforce/f6152518551e1acd6259cdf3f6a4a0825fb490a1/bootstrap/odev3/bootstraplinkedinclone/assets/edit-regular.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-left: 25px;
+  }
+  
+  div.card {
+    border-radius: 10px;
+  }
+  
+  .header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  
+  .view {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5f5f5f;
+  }
+  
+  .categories {
+    font-size: 13px;
+    font-weight: bold;
+    color: #0a66c2;
+  }
+  
+  li {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+  }
+  
+  .link {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #5f5f5f;
+  }
+  
+  button.ref {
+    color: white;
+  }
+  
+  button.ref:hover {
+    color: #5f5f5f;
+  }
+  
+  .postphoto {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .posttext {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  .ref i {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .ref i span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+  }
+  
+  .ref:hover i {
+    color: white;
+  }
+  
+  .postphoto {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .posttext {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .nav-link-inline-wrapper {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-link-inline-wrapper:hover {
+    color: black;
+  }
+  
+  .nav-link-inline-wrapper:hover .menutext {
+    color: black;
+  }
+  
+  .main-content {
+    margin-top: 100px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-link-inline-wrapper::before {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-link-inline-wrapper img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-top: 8px;
+  }
+  
+  button.follow {
+    font-size: .75rem;
+  }
